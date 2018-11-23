@@ -1,10 +1,10 @@
-// declaring important variable of modales
+// modes variables
 let modal = document.querySelector(".start-game");
 let overlay = document.querySelector(".overlay");
 let gameover = document.querySelector(".game-over");
 let winReport = document.querySelector(".winner");
 
-// points and player lives
+// playerpoints and chances
 let playerPoints = 0;
 let playerLives = 3;
 
