@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!--  stylelink -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- Main Content -->
+	<main>
+    	<div class="header">
+        	<h1>CROSSING FROGGER</h1>
+    	</div>
+        <!-- Start mode with instruction-->
+   		<div class="overlay"></div>
+
+   		 
+    	<div class="start-game">
+        	<h1>Classic Arcade game</h1>
+        	<h3>Instructions</h3>
+        	<p>Use arrow keys on your keyboard to move the player. Do your best to get to the other side of the road without colliding a bug!</p>
+  			<p>You have 3 Chances. Clearing a level is worth 500 points.</p>
+        	<h4> All Da Best!</h4>
+        	<button onclick="startGame()"> Let's Play. </button>
+   		</div>
+
+    	<!-- Game over mode -->
+    	<div class="game-over">
+        	<h1>The Game Is Over!!!</h1>
+        	<button onclick="resetGame()"> Play Again </button>
+    	</div>
+
+    	<!-- Win mode -->
+    	<div class="winner">
+        	<h1>OMG </h1>
+        	<p>YOU DESERVE SOME ACCOLADES!!!</p>
+       		<!-- <h3>Play again to win again</h3>-->
+        	<button onclick="resetGame()"> Play Again </button>
+    	</div>
+
+    	<script src="js/resources.js"></script>
+    	<script src="js/app.js"></script>
+    	<script src="js/engine.js"></script>
+    </main>
+</body>
+</html>
