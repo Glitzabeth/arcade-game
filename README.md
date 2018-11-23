@@ -23,7 +23,7 @@ Such as Chrome, Firefox, Edge recent versions
 Do your best to get to the other side of the road without colliding a bug!, 
 You fix in a key to any part of the road you successfully reached
 You have 3 Chances. Clearing a level is worth 500 points.
-
+Click https://glitzabeth.github.io/arcade-game/ to play
 
 
 ## Contributing
