@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    font-family:	sans-serif, tahoma;
+    background-color: #FF9900;
+}
+
+.header {
+    color: #990000;
+}
+.header h1:hover, button:hover {
+}
+
+canvas {
+    margin-top: -4em; 
+}
+
+.overlay {
+    background: rgba(0, 0, 5, 0.4);
+    transition: opacity 500ms;
+    width: 505px;
+    height: 538px;
+    position: absolute;
+    top: 91px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.start-game {
+    font-family: 'Glitz', fantasy;
+    position: absolute;
+    background-color: #ccccff;
+    border-radius: 5px; 
+    left: 0;
+    right: 0;
+    top: 153px;
+    width: 430px;
+    height: 420px;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
+.start-game h1, h3, h4 {
+    font-weight: bold; 
+}
+
+.start-game h4 {
+    color: #990033;
+}
+
+.start-game button {
+    background-color: #0000cc;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.hide {
+	visibility: hidden;
+	opacity: 0 !important;
+}
+.show {
+	visibility: visible !important;
+	opacity: 1 !important;
+}
+
+.game-over {
+    font-family: 'hoowl', serif;
+    position: absolute;
+    background-color: #ff0000;
+    border-radius: 5px; 
+    left: 0;
+    right: 0;
+    top: 153px;
+    width: 347px;
+    height: 303px;
+    margin: 0 auto;
+    padding: 3em 3em;
+    color: #fff;
+    visibility: hidden;
+}
+
+.game-over button {
+    background-color: #0000cc;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    font-size: 26px;
+    color: #fff;
+    margin-top: 2em;
+}
+
+.winner {
+    font-family: 'holla', serif;
+    position: absolute;
+    background-color: #ff3399;
+    border-radius: 5px; 
+    left: 0;
+    right: 0;
+    top: 153px;
+    width: 347px;
+    height: 303px;
+    margin: 0 auto;
+    padding: 3em 3em;
+    color: #fff;
+    visibility: hidden;
+}
+
+.winner button {
+    background-color: #0000cc;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 15px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 2em;
+}
