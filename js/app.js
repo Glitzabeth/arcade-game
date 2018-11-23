@@ -74,7 +74,7 @@ Enemy.prototype.update = function(dt) {
     
     // collison detection
     if (parseInt(this.x)+ 100 >= playerX && parseInt(this.x) <= playerX + 40 && this.y === playerY){
-         
+         alert('Stop!! Collision Detected');
         player.reset();
         alllives.pop();
         playerLives -= 1
